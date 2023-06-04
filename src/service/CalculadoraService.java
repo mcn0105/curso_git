@@ -25,4 +25,7 @@ public class CalculadoraService {
 		}
 		return suma;
 	}
+	public int factorial(int n) {
+		return n*2;
+	}
 }
