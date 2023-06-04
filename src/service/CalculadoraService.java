@@ -18,4 +18,11 @@ public class CalculadoraService {
 	public int potencia(int a, int b) {
 		return (int)Math.pow(a,  b);
 	}
+	public int sumatorio(int[] nums) {
+		int suma=0;
+		for(int n:nums) {
+			suma+=n;
+		}
+		return suma;
+	}
 }
